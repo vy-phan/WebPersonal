@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+/* head */
+#back_ground {
+    width: 100%;
+    height: auto;
+	z-index: -1;
+	border-bottom-color: #ffffff;
+	border-bottom-style: solid;
+
+}
+#me{
+    border-radius: 50%;
+	width: 28%;
+    height: auto;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	transform: translate(-5%, -50%);
+	border-style: solid;
+	border-color: white;
+
+}
+h3{
+	text-align: center;
+	font-size: 25px;
+	transform: translate(-1%, -250%);
+}
+
+
+
+/* menu an de xuong nhanh */
+#containt {
+	background-color : #ffcb49 ;
+	overflow: hidden;
+}
+
+#containt > a{
+	color : #ffffff ;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 21px;
+	font-weight: 400px;
+	padding: 25px 30px ;
+	display: block;
+	text-align : center;
+	text-decoration : none;
+	overflow: hidden;
+}
+#leftNav{
+	float: left;
+}
+#rightNav{
+	float: right;
+}
+
+#containt > a:hover {
+	background-color : #5792ff;
+	color : #555567; 
+}
+
+
+
+/* phan thong tin */
+#container{
+	background-color: #58585a;
+	padding: 10px;
+	margin: 15px 5px 15px 5px;
+	border-radius: 10px;
+}
+
+.icon > img {
+	width: 5%;
+	height: 5%;
+}
+
+.icon > a {
+	color: white;
+}
+
+.icon{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+	background-color: #58585a;
+
+}
+
+footer{
+	background-color: #333;
+	font-weight: 700;
+	padding: 20px;
+	
+}
+
+
