@@ -87,6 +87,9 @@ h3{
 	background-color: #58585a;
 
 }
+.icon > a:hover{
+	color: #5792ff;
+}
 
 footer{
 	background-color: #333;
