@@ -8,9 +8,9 @@ body{
     width: 100%;
     height: auto;
 	z-index: -1;
-	border-bottom-color: #ffffff;
-	border-bottom-style: solid;
-
+	/* border-bottom-color: #ffffff;
+	border-bottom-style: solid; */
+	border-bottom: 3px solid white;
 }
 #me{
     border-radius: 50%;
@@ -20,8 +20,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	transform: translate(-5%, -50%);
-	border-style: solid;
-	border-color: white;
+	border: 3px solid white;
 
 }
 h3{
